@@ -48,6 +48,7 @@ function App() {
           element={
             <>
               <Header />
+              <ListGames games={gameDataOn} />
               <Footer />
             </>
           }
